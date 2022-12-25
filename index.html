@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .heading_container{
+            height: 14%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 6px 9px gray;
+        }
+        .navigation_box_container{
+            height: 70%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 21px;
+            font-weight: bold;
+            margin-left: 4%;
+        }
+        .icon_container{
+            width: 12%;
+            height: 70%;
+            margin-left: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 22px;
+        }
+        .body_container{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2%;
+        }
+        .images_container{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3%;
+        }
+        .image_box{
+            width: 18%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .box{
+            width: 100%;
+            height: 88%;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #box1{
+            background-color: #f8e9d2;
+        }
+        #box2{
+            background-color: #f3ecfc;
+        }
+        #box3{
+            background-color: #fff0ed;
+        }
+        #box4{
+            background-color: #f0fdec;
+        }
+        #box5{
+            background-color: #f1f1f1;
+        }
+
+        .box_name{
+            height: 12%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            width: 50%;
+            height: 70%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading_container">
+    <div class="kitter" style="margin-left: 2%; font-size: 26px;"><h1>Kitter</h1></div>
+    <div class="navigation_box_container">
+        <div class="navigation_box">Home</div>
+        <div class="navigation_box">Shop</div>
+        <div class="navigation_box">Collections</div>
+        <div class="navigation_box">Blogs</div>
+        <div class="navigation_box">Contact</div>
+    </div>
+    <div class="icon_container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-briefcase"></i>
+    </div>
+    </div>
+    <div class="body_container">
+       <h1 style="font-size:37px;"><span style="color:#ed6635;">Top</span> categories</h1>
+       <div class="images_container">
+        <div class="image_box">
+            <div class="box" id="box1"><img src="./cat-food-svgrepo-com.svg" alt="" class="img"></div>
+            <div class="box_name"><h2>Cat Food</h2></div>
+        </div>
+        <div class="image_box">
+            <div class="box" id="box2"><img src="./cat-origami-paper-svgrepo-com.svg" alt="" class="img"></div>
+            <div class="box_name"><h2>Cat Toys</h2></div>
+        </div>
+        <div class="image_box">
+            <div class="box" id="box3"><img src="./dog-food-pet-shop-svgrepo-com.svg" alt="" class="img"></div>
+            <div class="box_name"><h2>Dog Food</h2></div>
+        </div>
+        <div class="image_box">
+            <div class="box" id="box4"><img src="./animal-circus-dog-svgrepo-com.svg" alt="" class="img"></div>
+            <div class="box_name"><h2>Dog Toys</h2></div>
+        </div>
+        <div class="image_box">
+            <div class="box" id="box5"><img src="./dog-bowl-svgrepo-com.svg" alt="" class="img"></div>
+            <div class="box_name"><h2>Dog Sumpplements</h2></div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
